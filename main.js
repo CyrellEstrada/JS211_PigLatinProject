@@ -12,11 +12,14 @@ const rl = readline.createInterface({
 
 
 const pigLatin = (word) => {
-
-  // Your code here
-
-}
-
+  const vowels = ["a", "e", "i", "o","u"]
+  
+  if (word[0] === vowels) {
+  word[0].replace("yay")
+  }
+  return pigLatin();
+  }
+  
 // the first function called in the program to get an input from the user
 // to run the function use the command: node main.js
 // to close it ctrl + C
